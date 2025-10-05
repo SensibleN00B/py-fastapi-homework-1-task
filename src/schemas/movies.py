@@ -18,7 +18,6 @@ class MovieDetailResponseSchema(BaseModel):
     budget: float
     revenue: float
     country: str
-
     model_config = {
         "from_attributes": True,
     }
